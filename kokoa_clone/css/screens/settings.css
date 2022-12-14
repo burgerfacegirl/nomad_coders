@@ -1,0 +1,42 @@
+body {
+    height: 105vh;
+}
+
+.settings__setting {
+    padding: 20px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+.settings__setting i {
+    color : rgb(221, 160, 221, 0.7);
+    margin-right: 10px;
+    font-size: 23px;
+}
+
+.settings__setting-column:last-child {
+    opacity: 0.5;
+}
+
+.settings__setting:nth-child(3) {
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.settings__setting:nth-child(4) {
+    padding-top: 40px;
+}
+
+.settings__setting:last-child {
+    border: none;
+}
+
+.settings-status-bar {
+    background-color: rgb(247, 233, 248);
+    z-index: 1;
+}

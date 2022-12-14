@@ -1,0 +1,22 @@
+.badge {
+    background-color: tomato;
+    color: white;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.noti {
+    background-color: tomato;
+    display: flex;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: relative;
+    left: 70px;
+    bottom: 22px;
+}

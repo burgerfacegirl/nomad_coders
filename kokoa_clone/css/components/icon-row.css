@@ -1,0 +1,32 @@
+.icon-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.icon-row__icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-row__icon i {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.icon-row__icon span {
+    text-align: center;
+    white-space: pre-line;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.icon-row__icon--contacts {
+    position: relative;
+    top: 8px;
+}
+
+

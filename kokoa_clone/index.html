@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to HoHoTalk</title>
+    <meta name="description" content="This is HoJungTalk" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to HoHoTalk</h1>
+        <img src="img/짱구1.png" />
+        <div class="welcome-header__text">
+            If you have a HTalk Account,
+            log in with your email or phone number.
+        </div>
+    </header>
+    <form action="friends.html" method="get" id="login-form">
+        <input name="username" type="text" placeholder="Email or phone number" required/>
+        <input name="password" type="password" placeholder="Password" required minlength="4"/>
+        <input type="submit" value="Log In" />
+        <input type="submit" value="Sign Up" />   
+        <a href="#">Find HTalk Account or Password</a>
+    </form>
+        
+    <div id="no-mobile">
+        <span>Your screen is too big 😭</span>
+    </div>
+
+    <script 
+    src="https://kit.fontawesome.com/ce98882fb7.js" crossorigin="anonymous">
+    </script>
+</body>
+</html>

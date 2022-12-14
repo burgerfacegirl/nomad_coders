@@ -1,0 +1,67 @@
+
+.user-component__text .fa-circle-exclamation{
+    color: tomato;
+}
+
+.h-6 {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.more-screen .icon-row__icon {
+    width: 70px;
+}
+.icon-row1 {
+    padding: 10px 0px;
+    margin: 20px 0px;
+}
+
+.icon-row2 {
+    padding-bottom: 25px;
+    border-bottom: var(--main-border);
+}
+
+.more-suggestions {
+    margin-top: 20px;
+}
+
+.more-suggestions__title { 
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+.more-suggestions__icons {
+    display: flex;
+}
+
+
+.more-suggestions__icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+}
+
+.more-suggestions__icon--img {
+    display: flex;
+    height: 45px;
+    width: 45px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(216, 112, 147, 0.7);
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+.more-suggestions__icon--text {
+    font-size: 13px;
+    font-weight: 600;
+    opacity: 0.6;
+}
